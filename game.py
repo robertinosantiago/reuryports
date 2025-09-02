@@ -47,7 +47,7 @@ class Game:
             dt = self.clock.tick(60) / 1000.0
             self.trata_eventos()
 
-            self.screen.fill((0, 0, 0))
+            self.screen.fill((0, 200, 200))
 
             if not self.iniciou:
                 self.desenha_tela_instrucoes()
